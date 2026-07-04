@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Community Service Project website on Promoting Mental Health Awareness for a Healthy Community by GATES Institute of Technology, ECE Department.">
+    <title>Promoting Mental Health Awareness | GATES Institute of Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loader" id="loader" aria-label="Loading website">
+        <div class="loader-mark">
+            <span></span>
+            <strong>MindCare CSP</strong>
+        </div>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="particle-layer" id="particles" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Go to home section">
+                <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M24 39s-12.5-7.4-16.4-15.3C4.7 17.8 8 11 14.3 11c3.7 0 6.3 2 7.7 4.2C23.4 13 26 11 29.7 11 36 11 39.3 17.8 36.4 23.7 32.5 31.6 24 39 24 39Z"></path>
+            <path d="M25.4 30.7c6.2-1.4 10.3-5.8 11.8-12.5-6.8.6-11.5 4.4-13.5 10.9"></path>
+            <path d="M23.8 30.9c-4.7-1.1-8.1-4.4-9.6-9.6 5.1.4 8.7 3.2 10.2 8"></path>
+          </svg>
+        </span>
+                <span>
+          <strong>Mental Health Awareness</strong>
+          <small>ECE Community Service Project</small>
+        </span>
+            </a>
+
+            <div class="nav-actions">
+                <button class="icon-button theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+                <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+            </div>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#mental-health" class="nav-link">Mental Health</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#impact" class="nav-link">Community Impact</a>
+                <a href="#resources" class="nav-link">Resources</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-bg-orbit" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">GATES INSTITUTE OF TECHNOLOGY</p>
+                    <p class="sub-eyebrow">Department of Electronics and Communication Engineering (ECE)</p>
+                    <span class="pill">Community Service Project (CSP) • Academic Year 2025-2026</span>
+                    <h1>Promoting Mental Health Awareness for a Healthy Community</h1>
+                    <p class="hero-text">Mental health is an essential part of overall well-being. This project spreads awareness about emotional wellness, stress management, healthy habits, and seeking support when necessary.</p>
+                    <div class="hero-buttons">
+                        <a class="button primary" href="#about">Learn More</a>
+                        <a class="button secondary" href="#activities">Explore Activities</a>
+                        <a class="button ghost" href="#team">Meet Our Team</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="wellness-card main-illustration">
+                        <div class="mind-glow"></div>
+                        <div class="brain-art" aria-label="Brain illustration">🧠</div>
+                        <h2>Healthy Mind, Healthy Community</h2>
+                        <p>Awareness, empathy, and early support help people grow with confidence.</p>
+                    </div>
+                    <div class="floating-icon icon-brain" title="Brain">🧠</div>
+                    <div class="floating-icon icon-meditation" title="Meditation">🧘</div>
+                    <div class="floating-icon icon-happy" title="Happiness">😊</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">About the Topic</span>
+                    <h2>Mental health shapes how we think, feel, learn, and connect.</h2>
+                    <p>Mental health includes emotional, psychological, and social well-being. It affects confidence, relationships, academic performance, productivity, and physical health.</p>
+                </div>
+                <div class="card-grid six-grid">
+                    <article class="info-card reveal"><span>💙</span>
+                        <h3>Emotional Well-Being</h3>
+                        <p>Understanding emotions and responding to stress in healthy ways.</p>
+                    </article>
+                    <article class="info-card reveal"><span>🌱</span>
+                        <h3>Confidence Building</h3>
+                        <p>Encouraging self-belief, positive habits, and resilience.</p>
+                    </article>
+                    <article class="info-card reveal"><span>🤝</span>
+                        <h3>Healthy Relationships</h3>
+                        <p>Promoting communication, empathy, respect, and support.</p>
+                    </article>
+                    <article class="info-card reveal"><span>📚</span>
+                        <h3>Academic Performance</h3>
+                        <p>Improving focus, motivation, and balanced study routines.</p>
+                    </article>
+                    <article class="info-card reveal"><span>⚡</span>
+                        <h3>Productivity</h3>
+                        <p>Helping students manage time, energy, and daily priorities.</p>
+                    </article>
+                    <article class="info-card reveal"><span>🏃</span>
+                        <h3>Physical Health Link</h3>
+                        <p>Showing how sleep, food, exercise, and mood work together.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section tinted" id="objectives">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Project Objectives</span>
+                    <h2>Awareness becomes action when communities learn together.</h2>
+                </div>
+                <div class="card-grid three-grid">
+                    <article class="objective-card reveal"><b>01</b>
+                        <h3>Create Awareness</h3>
+                        <p>Share clear information about mental wellness and common challenges.</p>
+                    </article>
+                    <article class="objective-card reveal"><b>02</b>
+                        <h3>Reduce Stigma</h3>
+                        <p>Normalize open conversations and respectful support.</p>
+                    </article>
+                    <article class="objective-card reveal"><b>03</b>
+                        <h3>Promote Healthy Lifestyles</h3>
+                        <p>Encourage sleep, exercise, nutrition, hydration, and balanced routines.</p>
+                    </article>
+                    <article class="objective-card reveal"><b>04</b>
+                        <h3>Encourage Professional Help</h3>
+                        <p>Guide people to seek help from qualified professionals when needed.</p>
+                    </article>
+                    <article class="objective-card reveal"><b>05</b>
+                        <h3>Teach Stress Management</h3>
+                        <p>Introduce breathing, meditation, time management, and positive coping.</p>
+                    </article>
+                    <article class="objective-card reveal"><b>06</b>
+                        <h3>Support Community Well-Being</h3>
+                        <p>Build supportive classrooms, families, and peer groups.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="mental-health">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Stress Signal Explorer</span>
+                    <h2>Choose a signal to understand what it may mean and how to respond early.</h2>
+                </div>
+                <div class="wellness-prompt reveal">
+                    <div>
+                        <span>Today’s Awareness Message</span>
+                        <h3>Pause. Notice. Talk. Support.</h3>
+                        <p>Mental health awareness begins with simple actions: listening without judgment, checking on friends, and encouraging timely support when someone feels stressed or alone.</p>
+                    </div>
+                    <a class="button secondary" href="#wellness-tools">Open Knowledge Hub</a>
+                </div>
+
+                <div class="signal-explorer reveal">
+                    <div class="signal-options" id="signalOptions">
+                        <button class="signal-option active" type="button" data-title="Headache or Body Pain" data-icon="🤕" data-signs="Frequent headaches, body pain, muscle tightness, or tiredness." data-reason="Stress can keep the body in a tense state and reduce rest quality."
+                            data-action="Drink water, rest your eyes, stretch gently, and take a short break from screens.">🤕 Headache</button>
+                        <button class="signal-option" type="button" data-title="Overthinking and Worry" data-icon="💭" data-signs="Repeated thoughts, fear of mistakes, difficulty relaxing, or constant worry." data-reason="Pressure from studies, family, money, or social situations can overload the mind."
+                            data-action="Write the worry down, divide the problem into small steps, and talk with a trusted person.">💭 Worry</button>
+                        <button class="signal-option" type="button" data-title="Low Energy" data-icon="🔋" data-signs="Feeling tired, low motivation, poor focus, or lack of interest." data-reason="Poor sleep, emotional stress, unhealthy food habits, or burnout may reduce energy."
+                            data-action="Start with one small task, eat properly, get sunlight, and maintain a regular sleep routine.">🔋 Low Energy</button>
+                        <button class="signal-option" type="button" data-title="Social Withdrawal" data-icon="🚪" data-signs="Avoiding friends, staying alone, reduced communication, or loss of interest in activities." data-reason="People may withdraw when they feel stressed, sad, judged, or unsupported."
+                            data-action="Send one message, join a small group activity, or speak to family, teachers, or a counselor.">🚪 Withdrawal</button>
+                    </div>
+                    <article class="signal-display" id="signalDisplay" aria-live="polite">
+                        <div class="signal-display-icon" id="signalIcon">🤕</div>
+                        <div>
+                            <span>Selected Signal</span>
+                            <h3 id="signalTitle">Headache or Body Pain</h3>
+                            <p><strong>Signs:</strong> <span id="signalSigns">Frequent headaches, body pain, muscle tightness, or tiredness.</span></p>
+                            <p><strong>Possible reason:</strong> <span id="signalReason">Stress can keep the body in a tense state and reduce rest quality.</span></p>
+                            <p><strong>Care step:</strong> <span id="signalAction">Drink water, rest your eyes, stretch gently, and take a short break from screens.</span></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section tinted" id="activities">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">8 Weeks Survey</span>
+                    <h2>Weekly community survey and awareness activity record.</h2>
+                </div>
+                <div class="activity-timeline weekly-survey">
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>1</span>
+                        <h3>Week 1: Community Survey and Problem Identification</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Visited the community and interacted with residents.</li>
+                            <li>Identified common mental health issues.</li>
+                            <li>Collected basic information through surveys.</li>
+                            <li>Discussed stress-related problems faced by people.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Understood the need for mental health awareness in the community.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>2</span>
+                        <h3>Week 2: Mental Health Awareness Campaign</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Conducted awareness sessions about mental health.</li>
+                            <li>Explained the importance of emotional well-being.</li>
+                            <li>Educated people about mental health misconceptions.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Increased awareness and encouraged open discussions.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>3</span>
+                        <h3>Week 3: Identifying Causes of Stress</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Explained major causes of mental health problems.</li>
+                            <li>Discussed academic pressure, financial stress, family issues, and social media usage.</li>
+                            <li>Interacted with students and residents.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>People learned to identify factors affecting their mental health.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>4</span>
+                        <h3>Week 4: Stress Management Techniques</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Demonstrated simple stress management techniques.</li>
+                            <li>Introduced breathing exercises.</li>
+                            <li>Conducted meditation and relaxation activities.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Participants learned methods to reduce stress.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>5</span>
+                        <h3>Week 5: Healthy Lifestyle Awareness</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Educated people about healthy daily habits.</li>
+                            <li>Explained the importance of sleep, exercise, and balanced nutrition.</li>
+                            <li>Encouraged reducing excessive screen time.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Participants understood the connection between physical and mental health.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>6</span>
+                        <h3>Week 6: Yoga and Physical Activity Session</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Conducted simple yoga exercises.</li>
+                            <li>Demonstrated stretching activities.</li>
+                            <li>Encouraged daily physical activity.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Participants understood how exercise improves mental well-being.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>7</span>
+                        <h3>Week 7: Community Interaction and Support Building</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Organized group discussions.</li>
+                            <li>Encouraged people to share experiences.</li>
+                            <li>Promoted seeking help from family, friends, teachers, and professionals.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Reduced hesitation in discussing mental health concerns.</p>
+                    </article>
+
+                    <article class="activity-card survey-card searchable reveal">
+                        <span>8</span>
+                        <h3>Week 8: Final Evaluation and Report Preparation</h3>
+                        <h4>Activities</h4>
+                        <ul>
+                            <li>Reviewed all activities conducted.</li>
+                            <li>Collected feedback from participants.</li>
+                            <li>Documented project outcomes and recommendations.</li>
+                            <li>Prepared the final report.</li>
+                        </ul>
+                        <h4>Outcome</h4>
+                        <p>Successfully completed the Mental Health Awareness project and summarized the impact on the community.</p>
+                    </article>
+                </div>
+
+                <div class="section-heading compact reveal">
+                    <span class="eyebrow">Healthy Habits</span>
+                    <h2>Tap a habit to mark it as a positive action.</h2>
+                </div>
+                <div class="habit-grid" id="habitGrid">
+                    <button class="habit-card searchable" type="button" data-title="Sleep 7-9 hours" data-info="Good sleep helps the brain recover, improves memory, balances emotions, and reduces stress. Try to sleep and wake up at the same time every day.">Sleep 7-9 hours</button>
+                    <button class="habit-card searchable" type="button" data-title="Exercise daily" data-info="Daily exercise releases feel-good chemicals, improves confidence, and reduces anxiety. Even a 20-minute walk, cycling, or simple stretching can support mental wellness.">Exercise daily</button>
+                    <button class="habit-card searchable" type="button" data-title="Healthy diet" data-info="A balanced diet gives the brain steady energy. Fruits, vegetables, proteins, whole grains, and regular meals can improve focus, mood, and physical health.">Healthy diet</button>
+                    <button class="habit-card searchable" type="button" data-title="Meditation" data-info="Meditation calms racing thoughts and improves attention. Sitting quietly for a few minutes and focusing on breathing can help manage stress.">Meditation</button>
+                    <button class="habit-card searchable" type="button" data-title="Yoga" data-info="Yoga combines movement, breathing, and relaxation. It improves flexibility, reduces tension, and supports emotional balance.">Yoga</button>
+                    <button class="habit-card searchable" type="button" data-title="Drink water" data-info="Hydration supports energy, concentration, and body function. Drinking enough water through the day can prevent tiredness and headaches.">Drink water</button>
+                    <button class="habit-card searchable" type="button" data-title="Reduce screen time" data-info="Too much screen time can disturb sleep and increase stress. Taking screen breaks and limiting late-night phone use helps the mind rest.">Reduce screen time</button>
+                    <button class="habit-card searchable" type="button" data-title="Spend time with family and friends" data-info="Healthy relationships create emotional support. Talking, sharing, and spending time with trusted people can reduce loneliness and improve happiness.">Spend time with family and friends</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section tools-section" id="wellness-tools">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Mental Health Knowledge Hub</span>
+                    <h2>Useful information students and community members can remember and apply.</h2>
+                </div>
+                <div class="knowledge-grid">
+                    <article class="knowledge-card reveal">
+                        <span>01</span>
+                        <h3>When should someone seek help?</h3>
+                        <p>If stress, sadness, fear, sleep problems, or low energy continue for many days and affect daily life, support from family, teachers, counselors, or health professionals is important.</p>
+                    </article>
+                    <article class="knowledge-card reveal">
+                        <span>02</span>
+                        <h3>What can friends do?</h3>
+                        <p>Friends can listen calmly, avoid judging, stay connected, encourage healthy routines, and guide the person toward trusted adults or professional help when needed.</p>
+                    </article>
+                    <article class="knowledge-card reveal">
+                        <span>03</span>
+                        <h3>Why is stigma harmful?</h3>
+                        <p>Stigma makes people hide their problems. Awareness helps communities treat mental health with the same seriousness and care as physical health.</p>
+                    </article>
+                </div>
+
+                <div class="knowledge-accordion reveal">
+                    <details open>
+                        <summary>5-4-3-2-1 Grounding Method</summary>
+                        <p>Notice 5 things you can see, 4 things you can feel, 3 sounds you can hear, 2 things you can smell, and 1 thing you can taste. This can calm racing thoughts.</p>
+                    </details>
+                    <details>
+                        <summary>Positive Self-Talk Examples</summary>
+                        <p>Use simple lines such as “I can take one step at a time,” “This feeling will pass,” and “It is okay to ask for support.”</p>
+                    </details>
+                    <details>
+                        <summary>Healthy Study-Life Balance</summary>
+                        <p>Plan small study sessions, take short breaks, sleep regularly, reduce late-night screen use, and include movement or outdoor time each day.</p>
+                    </details>
+                    <details>
+                        <summary>How to Start a Supportive Conversation</summary>
+                        <p>Begin with care: “I noticed you seem stressed. Do you want to talk?” Listen first, avoid quick advice, and encourage help if the concern feels serious.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section survey-details-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Survey Details</span>
+                    <h2>Community response collected during the CSP activity.</h2>
+                </div>
+                <div class="survey-details-grid">
+                    <article class="survey-detail-card searchable reveal">
+                        <span>👥</span>
+                        <strong>65+</strong>
+                        <p>People Surveyed</p>
+                    </article>
+                    <article class="survey-detail-card searchable reveal">
+                        <span>😊</span>
+                        <strong>58%</strong>
+                        <p>Aware About Mental Health</p>
+                    </article>
+                    <article class="survey-detail-card searchable reveal">
+                        <span>🧘</span>
+                        <strong>80%</strong>
+                        <p>Learned Stress Management</p>
+                    </article>
+                    <article class="survey-detail-card searchable reveal">
+                        <span>🤝</span>
+                        <strong>100%</strong>
+                        <p>Community Participation</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="impact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Community Impact</span>
+                    <h2>A supportive community improves awareness, empathy, and action.</h2>
+                </div>
+                <div class="card-grid five-grid">
+                    <article class="impact-card searchable reveal">Increased awareness</article>
+                    <article class="impact-card searchable reveal">Better understanding</article>
+                    <article class="impact-card searchable reveal">Reduced stigma</article>
+                    <article class="impact-card searchable reveal">Improved stress management</article>
+                    <article class="impact-card searchable reveal">Encouraged early support</article>
+                </div>
+
+                <div class="roadmap reveal">
+                    <div class="roadmap-column">
+                        <h3>Short-Term Action Plans</h3>
+                        <p>Awareness campaigns</p>
+                        <p>Workshops</p>
+                        <p>Educational materials</p>
+                        <p>Physical activity sessions</p>
+                    </div>
+                    <div class="roadmap-line" aria-hidden="true"></div>
+                    <div class="roadmap-column">
+                        <h3>Long-Term Action Plans</h3>
+                        <p>Regular awareness programs</p>
+                        <p>Counseling support</p>
+                        <p>Mental health education</p>
+                        <p>Supportive communities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section tinted" id="gallery">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Gallery</span>
+                    <h2>Snapshots from planned awareness activities.</h2>
+                </div>
+                <div class="gallery-grid">
+                    <figure class="gallery-card searchable reveal">
+                        <img src="assets/gallery/poster-awareness-ward.jfif" alt="Students presenting a mental health awareness poster inside a hospital ward">
+                        <figcaption>Poster Awareness in Hospital Ward</figcaption>
+                        <p>The team displayed the mental health awareness poster and explained the importance of emotional well-being to community members.</p>
+                    </figure>
+                    <figure class="gallery-card searchable reveal">
+                        <img src="assets/gallery/hospital-staff-interaction.jfif" alt="Students with hospital staff during mental health awareness activity">
+                        <figcaption>Interaction with Hospital Staff</figcaption>
+                        <p>Students interacted with health workers and documented the community visit as part of the awareness and survey activity.</p>
+                    </figure>
+                    <figure class="gallery-card searchable reveal">
+                        <img src="assets/gallery/student-team-awareness.jfif" alt="Student team holding mental health awareness poster">
+                        <figcaption>Student Team Awareness Presentation</figcaption>
+                        <p>The project team presented key points about stress, healthy habits, yoga, and seeking support for better mental health.</p>
+                    </figure>
+                    <figure class="gallery-card searchable reveal">
+                        <img src="assets/gallery/community-poster-explanation.jfif" alt="Students explaining mental health awareness poster to people in a hospital ward">
+                        <figcaption>Community Poster Explanation</figcaption>
+                        <p>The awareness chart helped explain mental health signs, prevention tips, and positive lifestyle practices in a simple visual way.</p>
+                    </figure>
+                    <figure class="gallery-card searchable reveal">
+                        <img src="assets/gallery/hospital-visit-documentation.jfif" alt="Student team outside District Co-Ordinator of Hospital Services building with project poster">
+                        <figcaption>Hospital Visit Documentation</figcaption>
+                        <p>The team recorded the field visit at the hospital location as evidence of the Community Service Project activity.</p>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="resources">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Resources</span>
+                    <h2>Reliable learning resources for mental health awareness.</h2>
+                </div>
+                <div class="resource-grid">
+                    <article class="resource-card searchable reveal">
+                        <h3>WHO Mental Health</h3>
+                        <p>Global information and guidance on mental health and well-being.</p><a class="button secondary" href="https://www.who.int/health-topics/mental-health" target="_blank" rel="noopener">Open Resource</a></article>
+                    <article class="resource-card searchable reveal">
+                        <h3>UNICEF Mental Health</h3>
+                        <p>Resources focused on children, young people, families, and communities.</p><a class="button secondary" href="https://www.unicef.org/mental-health" target="_blank" rel="noopener">Open Resource</a></article>
+                    <article class="resource-card searchable reveal">
+                        <h3>National Institute of Mental Health</h3>
+                        <p>Educational materials about mental disorders, support, and research.</p><a class="button secondary" href="https://www.nimh.nih.gov/health" target="_blank" rel="noopener">Open Resource</a></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section tinted" id="team">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Team</span>
+                    <h2>ECE students leading the Community Service Project.</h2>
+                </div>
+                <div class="team-grid">
+                    <article class="team-card searchable reveal leader">
+                        <div class="avatar">BL</div><span>Team Leader</span>
+                        <h3>B. Likhitha</h3>
+                        <p>24F21A0480</p><small>Electronics and Communication Engineering</small></article>
+                    <article class="team-card searchable reveal">
+                        <div class="avatar">TP</div><span>Team Member</span>
+                        <h3>T. Pavan Kumar</h3>
+                        <p>24F21A04B9</p><small>Electronics and Communication Engineering</small></article>
+                    <article class="team-card searchable reveal">
+                        <div class="avatar">GJ</div><span>Team Member</span>
+                        <h3>G. Jyothika</h3>
+                        <p>24F21A0471</p><small>Electronics and Communication Engineering</small></article>
+                    <article class="team-card searchable reveal">
+                        <div class="avatar">CM</div><span>Team Member</span>
+                        <h3>C. Manohar</h3>
+                        <p>24F21A0496</p><small>Electronics and Communication Engineering</small></article>
+                    <article class="team-card searchable reveal">
+                        <div class="avatar">GR</div><span>Team Member</span>
+                        <h3>G. Ravikumar</h3>
+                        <p>24F21A04D2</p><small>Electronics and Communication Engineering</small></article>
+                </div>
+
+                <div class="guide-grid">
+                    <article class="guide-card searchable reveal"><span>Faculty Guide</span>
+                        <h3>Mr. S. Tanveer Ahammad, P.hd.</h3>
+                        <p>Providing academic guidance and supervision throughout the Community Service Project.</p>
+                    </article>
+                    <article class="guide-card searchable reveal"><span>CSP Coordinator</span>
+                        <h3>J. Siva Kumar,M-Tech.</h3>
+                        <p>Responsible for coordinating and facilitating all CSP activities.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-info-card reveal">
+                    <h2>Contact - Promoting Mental Health Awareness CSP</h2>
+                    <ul>
+                        <li><span>🏛</span>
+                            <p>GATES INSTITUTE OF TECHNOLOGY</p>
+                        </li>
+                        <li><span>📘</span>
+                            <p>Community Service Project (CSP)</p>
+                        </li>
+                        <li><span>🎓</span>
+                            <p>Department: Electronics and Communication Engineering (ECE)</p>
+                        </li>
+                        <li><span>🌿</span>
+                            <p>Topic: Health and Hygiene - Mental Health Awareness</p>
+                        </li>
+                        <li><span>👨‍🏫</span>
+                            <p>Faculty Guide: Mr. S. Tanveer Ahammad, P.hd.</p>
+                        </li>
+                        <li><span>👨‍💼</span>
+                            <p>CSP Coordinator: J. Siva Kumar, M-Tech.</p>
+                        </li>
+                        <li><span>📅</span>
+                            <p>Academic Year: 2025-2026</p>
+                        </li>
+                        <li><span>📍</span>
+                            <p>Project Location: Gooty, Anantapur, Andhra Pradesh</p>
+                        </li>
+                        <li><span>👥</span>
+                            <p>Team: B. Likhitha, T. Pavan Kumar, G. Jyothika, C. Manohar, G. Ravikumar</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h2>GATES INSTITUTE OF TECHNOLOGY</h2>
+                <p>Department of Electronics and Communication Engineering (ECE)</p>
+                <p>Community Service Project - Mental Health Awareness</p>
+                <p>Faculty Guide: Mr. S. Tanveer Ahammad</p>
+                <p>CSP Coordinator: J. Siva Kumar, Ph.D.</p>
+                <p>Academic Year: 2025-2026</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#about">About</a>
+                <a href="#mental-health">Mental Health</a>
+                <a href="#activities">Activities</a>
+                <a href="#team">Team</a>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <div class="social-icons" aria-label="Demo social links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="fab" id="fab" aria-label="Back to top" title="Back to top">↑</button>
+
+    <div class="lightbox" id="galleryLightbox" aria-hidden="true" role="dialog" aria-label="Gallery photo preview">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo preview">×</button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxText"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
